@@ -1,0 +1,41 @@
+irucuit Python
+https://www.adafruit.com/category/956
+
+Circuit Playground eXpress (CPX)
+https://www.adafruit.com/product/3333
+ATSAMD21 ARM Cortex M0 Processor, running at 3.3V and 48MHz
+
+Micropython on circuit playground
+https://learn.adafruit.com/adafruit-circuit-playground-express/python-playground
+
+This small button in the center of the board is for Resetting the board. You can use this button to restart or reset the CPX.
+
+If using Arduino or CircuitPython, press this button once to reset, double-click to enter the bootloader manually.
+
+If using MakeCode, press this button twice to reset, once to enter the bootloader manually.
+
+https://learn.adafruit.com/adafruit-circuit-playground-express/adafruit2-windows-driver-installation
+ Mac and Linux do not require drivers, only Windows folks need to do this step 
+
+Makecode app (Requires Windows 10)
+https://www.microsoft.com/en-us/store/p/makecode-for-adafruit/9pgzhwsk0pgd
+
+
+Circuit Python documentation
+http://circuitpython.readthedocs.io/en/2.x/index.html
+
+
+CPX REPL
+https://learn.adafruit.com/circuit-playground-express-piano-in-the-key-of-lime/print-hello-circuitpython
+https://learn.adafruit.com/adafruit-circuit-playground-express/serial-console-repl
+
+linus connect line:
+screen /dev/tty.board_name 115200
+ACM0
+
+
+try pulse in info (remote)
+pulseio.PulseIn
+
+
+
