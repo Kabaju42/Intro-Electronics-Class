@@ -1,4 +1,4 @@
-irucuit Python
+Cirucuit Python
 https://www.adafruit.com/category/956
 
 Circuit Playground eXpress (CPX)
@@ -39,3 +39,4 @@ pulseio.PulseIn
 
 
 
+Add a lesson at the begining about REPL and 'it's better to ask forgiveness'
