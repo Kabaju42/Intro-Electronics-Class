@@ -29,7 +29,7 @@ CPX REPL
 https://learn.adafruit.com/circuit-playground-express-piano-in-the-key-of-lime/print-hello-circuitpython
 https://learn.adafruit.com/adafruit-circuit-playground-express/serial-console-repl
 
-linus connect line:
+linux connect line:
 screen /dev/tty.board_name 115200
 ACM0
 
