@@ -30,7 +30,8 @@ https://learn.adafruit.com/circuit-playground-express-piano-in-the-key-of-lime/p
 https://learn.adafruit.com/adafruit-circuit-playground-express/serial-console-repl
 
 linux connect line:
-screen /dev/tty.board_name 115200
+dmesg | grep tty
+sudo screen /dev/ttyACM0 115200
 ACM0
 
 
