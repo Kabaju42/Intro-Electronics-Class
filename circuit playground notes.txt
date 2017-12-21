@@ -1,3 +1,4 @@
+
 Cirucuit Python
 https://www.adafruit.com/category/956
 
@@ -42,3 +43,24 @@ pulseio.PulseIn
 
 
 Add a lesson at the begining about REPL and 'it's better to ask forgiveness'
+From the REPL type the following:
+"from adafruit_circuitplayground.express import cpx"
+Explain libraries and this is imorting a library of the circuit playground. Then you can see what' on it
+
+type: "help(cpx)"
+This prints out all of the members of the cpx object. everything that say's <property> is something you can read. Try:
+"print(cpx.touchA6)"
+now put your finger on the pad labeled A6 and try it again
+"print(cpx.touchA6)"
+
+Functions:
+"cpx.play_tone()"
+Gives the result:
+"TypeError: function takes 3 positional arguments but 1 were given"
+
+explain the 1 is 'self' that automatically gets passed in. so we can try adding two more
+"cpx.play_tone(440, .25)" # frequency, time
+
+"print(cpx.pixels)"
+gives array of size 10 of hex values
+"cpx.pixels[0] = 0x000010"
