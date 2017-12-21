@@ -31,7 +31,8 @@ https://learn.adafruit.com/adafruit-circuit-playground-express/serial-console-re
 
 linux connect line:
 dmesg | grep tty
-sudo screen /dev/ttyACM0 115200
+sudo adduser <username> dialout
+screen /dev/ttyACM0 115200
 ACM0
 
 
